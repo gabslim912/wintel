@@ -64,3 +64,5 @@ fields:
     max: 
     labelField: 
   label: Gallery
+pages:
+- _partenaires/Omegapro.md
