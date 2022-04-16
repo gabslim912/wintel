@@ -2,6 +2,12 @@
 label: partenaires
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
 - name: nom
   type: text
   config:
