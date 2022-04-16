@@ -1,0 +1,212 @@
+---
+layout: default
+---
+<!-- Header
+============================================= -->
+{%- include header-part.html -%}
+<!-- #header end -->
+<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>{{ page.title }}</h1>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="/">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">{{ page.nom }}</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<div class="single-product">
+						<div class="product">
+							<div class="row gutter-40">
+
+								<div class="col-md-6">
+
+									<!-- Product Single - Gallery
+									============================================= -->
+									<div class="product-image">
+										<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true">
+											<div class="flexslider">
+												<div class="slider-wrap" data-lightbox="gallery">
+													<div class="slide" data-thumb="{{ page.logo }}"><a href="{{ page.logo }}" title="{{ page.nom }}" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="{{ page.nom }}"></a></div>
+													<div class="slide" data-thumb="{{ page.logo }}"><a href="{{ page.logo }}" title="{{ page.nom }}" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="{{ page.nom }}"></a></div>
+													<div class="slide" data-thumb="{{ page.logo }}"><a href="{{ page.logo }}" title="{{ page.nom }}" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="{{ page.nom }}"></a></div>
+													
+												</div>
+											</div>
+										</div>
+										<div class="sale-flash badge bg-danger p-2">Promo!</div>
+									</div><!-- Product Single - Gallery End -->
+
+								</div>
+
+								<div class="col-md-6 product-desc">
+
+									<div class="d-flex align-items-center justify-content-between">
+
+										<!-- Product Single - Price
+										============================================= -->
+										<div class="product-price"><del>$539.99</del> <ins>${{ page.prix }}</ins></div><!-- Product Single - Price End -->
+
+										<!-- Product Single - Rating
+										============================================= -->
+										<div class="d-flex align-items-center">
+											<div class="product-rating">
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+												<i class="icon-star3"></i>
+											</div><!-- Product Single - Rating End -->
+										</div>
+
+									</div>
+
+									<div class="line"></div>
+
+									<!-- Product Single - Quantity & Cart Button
+									============================================= -->
+									<form class="cart mb-0 d-flex justify-content-between align-items-center" method="post" enctype='multipart/form-data'>
+										<div class="quantity clearfix">
+											<input type="button" value="-" class="minus">
+											<input type="number" step="1" min="1" name="quantity" value="1" title="Qty" class="qty" />
+											<input type="button" value="+" class="plus">
+										</div>
+										<button type="submit" class="add-to-cart button m-0">Acheter</button>
+									</form><!-- Product Single - Quantity & Cart Button End -->
+
+									<div class="line"></div>
+
+									<!-- Product Single - Short Description
+									============================================= -->
+									<p>{{ page.description }}</p>
+
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Prix Net:</span><span class="text-dark fw-semibold">{{ page.prix }} USD</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Frais OMP:</span><span class="text-dark fw-semibold">{{ page.frais_activation_omp }} USD</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Frais WINTEL:</span><span class="text-dark fw-semibold">{{ page.frais_activation_wintel }} USD</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Frais Binance:</span><span class="text-dark fw-semibold">{{ page.frais_activation_binance }} USD</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Gains par jour:</span><span class="text-dark fw-semibold">20 USD</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center px-0">
+											<span class="text-muted">Gains au bout de 16 mois:</span><span class="text-dark fw-semibold">1500 USD</span>
+										</li>
+									</ul>
+
+									<!-- Product Single - Share
+									============================================= -->
+									<div class="si-share d-flex justify-content-between align-items-center mt-4">
+										<span>Partager:</span>
+										<div>
+											<a href="#" class="social-icon si-borderless si-facebook">
+												<i class="icon-facebook"></i>
+												<i class="icon-facebook"></i>
+											</a>
+											<a href="#" class="social-icon si-borderless si-twitter">
+												<i class="icon-twitter"></i>
+												<i class="icon-twitter"></i>
+											</a>
+											
+											<a href="#" class="social-icon si-borderless si-gplus">
+												<i class="icon-gplus"></i>
+												<i class="icon-gplus"></i>
+											</a>
+											
+											<a href="#" class="social-icon si-borderless si-email3">
+												<i class="icon-email3"></i>
+												<i class="icon-email3"></i>
+											</a>
+										</div>
+									</div><!-- Product Single - Share End -->
+
+								</div>
+
+								<div class="w-100"></div>
+
+								<div class="col-12 mt-5">
+
+									<div class="tabs clearfix mb-0" id="tab-1">
+
+										<ul class="tab-nav clearfix">
+											<li><a href="#tabs-1"><i class="icon-align-justify2"></i><span class="d-none d-md-inline-block"> Description</span></a></li>
+											<li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="d-none d-md-inline-block"> Avantages offerts avec WINTEL</span></a></li>
+											
+										</ul>
+
+										<div class="tab-container">
+
+											<div class="tab-content clearfix" id="tabs-1">
+												<p>{{ page.description }} {{ page.description }} {{ page.description }}</p>
+												
+											</div>
+											<div class="tab-content clearfix" id="tabs-2">
+
+												<p>{{ page.description }} {{ page.description }} {{ page.description }}</p>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="line"></div>
+
+					<div class="w-100">
+
+						<h4>Toutes les licenses</h4>
+
+						<div class="owl-carousel product-carousel carousel-widget" data-margin="30" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-md="2" data-items-lg="3" data-items-xl="4">
+							{% for license in site.licenses %}
+							<div class="oc-item">
+								<div class="product">
+									<div class="product-image">
+										<a href="{{ license.url }}"><img src="{{ license.logo }}" alt="{{ license.nom }}"></a>
+										<a href="#"><img src="{{ license.logo }}" alt="{{ license.nom }}"></a>
+										<div class="badge bg-success p-2">20% de réduction*</div>
+										<div class="bg-overlay">
+											<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
+												<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-cart"></i></a>
+												<a href="include/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+											</div>
+											<div class="bg-overlay-bg bg-transparent"></div>
+										</div>
+									</div>
+									<div class="product-desc center">
+										<div class="product-title"><h3><a href="{{ license.url }}">{{ license.nom }}</a></h3></div>
+										<div class="product-price"><del>$524.99</del> <ins>${{ license.prix }}</ins></div>
+										
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->

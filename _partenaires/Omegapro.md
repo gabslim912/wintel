@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: partenaire
 nom: OmegaPro
 logo: "/uploads/omegapro.jpg"
 type: Trading
