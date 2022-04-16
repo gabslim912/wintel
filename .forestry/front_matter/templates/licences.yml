@@ -1,4 +1,87 @@
 ---
 label: Licences
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+- name: nom
+  type: text
+  config:
+    required: false
+  label: Nom
+  default: License
+- name: description
+  type: textarea
+  default: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend
+    lacus, sit amet varius quam leo a libero. In nec varius neque. Lorem ipsum dolor
+    sit amet, consectetur adipiscing elit. Fusce vel nibh lorem. Donec interdum aliquam
+    sapien, at pulvinar felis pellentesque eget.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+- name: prix
+  type: number
+  label: Prix
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: frais_activation_omp
+  type: number
+  label: Frais Activation OMP
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: frais_activation_wintel
+  type: number
+  label: Frais Activation WINTEL
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: frais_activation_binance
+  type: number
+  label: Frais Activation Binance
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: disclaimer
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Disclaimer
