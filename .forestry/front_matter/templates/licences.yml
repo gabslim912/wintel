@@ -85,3 +85,5 @@ fields:
     schema:
       format: markdown
   label: Disclaimer
+pages:
+- _licenses/startup.md
