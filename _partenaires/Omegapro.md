@@ -7,8 +7,7 @@ description: Depuis sa création en 2019, OmegaPro est fière d'avoir une commun
   massive de plus de 1 800 000 membres actifs et grandit en un clin d'œil à mesure
   que nous atteignons des sommets chaque jour. Et, nous aimons croire que ce n'est
   que le tout début d'un voyage incroyable qui nous attend, nous et notre communauté.
-  Bienvenue dans la révolution de demain alors que nous visons à orchestrer un avenir
-  sans dette.
+  
 description_pdf: "/uploads/etude-pour-achat-de-terrains-agricoles.pdf"
 gallery:
 - titre: Evenement Dubai
