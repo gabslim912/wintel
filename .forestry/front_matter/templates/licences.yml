@@ -105,4 +105,5 @@ fields:
   label: Disclaimer
 pages:
 - _licenses/basic.md
+- _licenses/light.md
 - _licenses/startup.md
