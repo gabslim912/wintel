@@ -3,7 +3,7 @@ nom: Licence Débutant
 description: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend
   lacus, sit amet varius quam leo a libero. In nec varius neque.
 prix: 100
-frais_activation_omp: 29
+frais_activation_omp: 99
 frais_activation_wintel: 10
 frais_activation_binance: 15
 layout: ''
