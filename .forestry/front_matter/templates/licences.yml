@@ -8,6 +8,20 @@ fields:
     required: false
   label: Layout
   hidden: true
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Client
+    - Partenaire
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
 - name: nom
   type: text
   config:
