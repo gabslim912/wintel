@@ -40,6 +40,8 @@ fields:
     schema:
       format: markdown
   label: Description
+  description: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend
+    lacus, sit amet varius quam leo a libero. In nec varius neque.
 - name: logo
   type: file
   config:
@@ -59,7 +61,7 @@ fields:
   type: number
   label: Frais Activation OMP
   description: ''
-  default: 0
+  default: 99
   required: true
   config:
     min: 
@@ -69,7 +71,7 @@ fields:
   type: number
   label: Frais Activation WINTEL
   description: ''
-  default: 0
+  default: 10
   required: true
   config:
     min: 
@@ -79,7 +81,7 @@ fields:
   type: number
   label: Frais Activation Binance
   description: ''
-  default: 0
+  default: 15
   required: true
   config:
     min: 
@@ -90,9 +92,11 @@ fields:
   config:
     maxSize: 64
   label: Image
+  default: "/uploads/omegapro.jpg"
 - name: disclaimer
   type: textarea
-  default: ''
+  default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at magna
+    vel eros elementum consectetur in a augue. '
   config:
     required: false
     wysiwyg: false
