@@ -22,7 +22,7 @@ fields:
       file: 
       path: 
   label: Type
-- name: nom
+- name: title
   type: text
   config:
     required: false
