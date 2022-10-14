@@ -104,6 +104,7 @@ fields:
       format: markdown
   label: Disclaimer
 pages:
+- _licenses/advance.md
 - _licenses/basic.md
 - _licenses/light.md
 - _licenses/pro.md
