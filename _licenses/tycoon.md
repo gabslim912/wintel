@@ -5,7 +5,7 @@ description: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleif
   lacus, sit amet varius quam leo a libero. In nec varius neque. Lorem ipsum dolor
   sit amet, consectetur adipiscing elit. Fusce vel nibh lorem. Donec interdum aliquam
   sapien, at pulvinar felis pellentesque eget.
-prix: 0
+prix: 8000
 frais_activation_omp: 99
 frais_activation_wintel: 10
 frais_activation_binance: 15

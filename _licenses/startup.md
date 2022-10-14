@@ -1,5 +1,4 @@
 ---
-nom: Licence Débutant
 description: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend
   lacus, sit amet varius quam leo a libero. In nec varius neque.
 prix: 100
