@@ -11,5 +11,7 @@ logo: "/uploads/startup-license.jpg"
 image: "/uploads/start-img.png"
 disclaimer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at
   magna vel eros elementum consectetur in a augue. '
+type: Client
+title: Débutant(e)
 
 ---
