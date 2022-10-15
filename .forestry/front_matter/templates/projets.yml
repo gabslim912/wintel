@@ -1,4 +1,272 @@
 ---
 label: projets
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: projet
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: category
+  type: select
+  default: Category 1
+  config:
+    required: false
+    options:
+    - Category 1
+    - Category 2
+    - Category 3
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: main_image
+  type: file
+  config:
+    maxSize: 64
+  label: Main image
+  default: "/uploads/slider-fullscreen2-slide-2.jpg"
+- name: mini_desc
+  type: textarea
+  default: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit
+    fugiat quisquam nesciunt. Dicta quis.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Mini Description
+- name: fond
+  type: number
+  label: Fond
+  description: ''
+  default: 1000000
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: participants
+  type: number
+  label: Participants
+  description: ''
+  default: 10
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: contibutions
+  type: number
+  label: Contibutions
+  description: ''
+  default: 25
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: auteur
+  type: text
+  config:
+    required: false
+  label: Auteur
+  default: John Doe
+- name: profil_auteur
+  type: file
+  config:
+    maxSize: 64
+  label: Profil auteur
+  default: "/uploads/testimonial-2.jpg"
+- name: adresse
+  type: text
+  config:
+    required: false
+  label: Adresse
+  default: Dakar, Sénégal
+- name: objectif
+  type: number
+  label: Objectif
+  description: ''
+  default: 10000000
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description_auteur
+  type: textarea
+  default: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet,
+    eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae
+    blanditiis praesentium.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description auteur
+- name: video
+  type: text
+  config:
+    required: false
+  label: Video
+  default: https://vimeo.com/87235351?embedded=true&source=vimeo_logo&owner=12281231
+- name: gallery
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: Image Title
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/uploads/slider-fullscreen2-slide-2.jpg"
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: gallery
+- name: faqs
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: Lorem ipsum dolor sit amet?
+  - name: response
+    type: textarea
+    default: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
+      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam
+      cum voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim
+      libero eaque explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis?
+      Saepe, aperiam, nam unde quas beatae vero vitae nulla.
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Response
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Faqs
+- name: updates
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: Lorem ipsum dolor, sit amet consectetur
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+    default: now
+  - name: text
+    type: textarea
+    default: Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam
+      placeat reprehenderit quis illo. Natus minus perferendis cumque impedit omnis
+      ullam laudantium quidem recusandae! Repudiandae similique nostrum in, deleniti
+      laudantium.
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Updates
+- name: reviews
+  type: field_group_list
+  fields:
+  - name: auteur
+    type: text
+    config:
+      required: false
+    label: Auteur
+    default: John Doe
+  - name: profile_picture
+    type: file
+    config:
+      maxSize: 64
+    label: Profile picture
+    default: "/uploads/testimonial-2.jpg"
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+    default: now
+  - name: text
+    type: textarea
+    default: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: note
+    type: select
+    default: '5'
+    config:
+      required: false
+      options:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Note
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Reviews
