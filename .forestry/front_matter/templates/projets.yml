@@ -270,3 +270,5 @@ fields:
     max: 
     labelField: 
   label: Reviews
+pages:
+- _projets/actubi.md
