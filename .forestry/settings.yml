@@ -9,6 +9,8 @@ sections:
   label: Projets
   create: all
   match: "**/*"
+  templates:
+  - projets
 - type: directory
   path: _licenses
   label: Licenses
