@@ -4,7 +4,7 @@ category: Category 1
 main_image: "/uploads/slider-fullscreen2-slide-2.jpg"
 mini_desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit
   fugiat quisquam nesciunt. Dicta quis.
-fond: 1000000
+fond: 7500000
 participants: 10
 contibutions: 25
 date: 2022-10-15 21:10:09 +0000
@@ -112,7 +112,6 @@ reviews:
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
     placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
   note: '5'
-published: false
 
 ---
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
