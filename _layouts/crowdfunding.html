@@ -118,238 +118,46 @@ layout: default
 						<div class="row">
 
 							<!-- Item 1 -->
+							{% for projet in site.projets %}
 							<div class="col-lg-4 col-sm-6 mb-4">
 								<div class="i-products">
 									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/1.jpg" alt="Image 1">
-											<span class="badge">Gadgets</span>
+										<a href="{{ projet.url }}" target="blank">
+											<img src="{{ projet.main_image }}" alt="{{ projet.title }}">
+											<span class="badge">{{ projet.category }}</span>
 										</a>
 									</div>
 									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">iDrone 2019</a></h3>
-										<p>Holisticly conceptualize transparent niche markets whereas top-line web services. Monotonectally parallel task cross-unit platforms rather than.</p>
+										<h3><a href="{{ projet.url }}" target="blank">{{ projet.title }}</a></h3>
+										<p>{{ projet.mini_desc }}</p>
 										<div class="clear"></div>
 										<ul class="skills">
 											<li data-percent="73">
 												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="20" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
+													<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Financé</span>
+													
 												</span>
 												<div class="progress"></div>
 											</li>
 										</ul>
 										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Melbourne, Australia</span>
+											<span class="products-location"><i class="icon-map-marker1"></i> {{ projet.adresse }}</span>
 											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>20</strong> days remaining</li>
+												<li class="list-group-item"><strong>{{ projet.objectif }} FCFA</strong> Collectés</li>
+												<li class="list-group-item"><strong>{{ projet.participants }}</strong> Participants</li>
+												<li class="list-group-item"><strong>{{ projet.contibutions }}</strong> Contributions</li>
+												<li class="list-group-item"><strong>Date:</strong>{{ projet.date }}</li>
 											</ul>
 											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/1.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Jackson Pot </a>
+												<img src="{{ projet.profil_auteur }}" alt="{{ projet.auteur }}">
+												<a href="demo-crowdfunding-single.html">Par {{ projet.auteur }}</a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-
-							<!-- Item 2 -->
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/2.jpg" alt="Image 2">
-											<span class="badge">Lights</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">Bluetooth Lights</a></h3>
-										<p>Appropriately monetize diverse leadership skills vis-a-vis unique core competencies. Enthusiastically transition future-proof models.</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="85">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="85" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="11" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Singapore</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>11</strong> days remaining</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/2.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Hanson Deck</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 3 -->
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/3.jpg" alt="Image 3">
-											<span class="badge">Travel</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">Electric Bike</a></h3>
-										<p>Authoritatively drive distributed platforms whereas quality methods of empowerment. Conveniently deploy error-free portals vis-a-vis internal.</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="89">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="89" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="19" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Dubai, UAE</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>19</strong> days remaining</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/3.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Eleanor Fant</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 4 -->
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/4.jpg" alt="Image 4">
-											<span class="badge">Fashion</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">Waterproof Shoe</a></h3>
-										<p>Quickly enhance e-business partnerships whereas pandemic strategic theme areas. Progressively fashion exceptional ROI after viral opportunities.</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="92">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="92" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="16" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Singapore</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>16</strong> days remaining</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/4.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Giles Posture</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 5 -->
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/5.jpg" alt="Image 5">
-											<span class="badge">Music</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">Wooden Guiter</a></h3>
-										<p>Continually whiteboard standardized outsourcing before mission-critical deliverables. Compellingly e-enable integrated action items fully tested.</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="100">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="100" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="7" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Mumbai, India</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>7</strong> days remaining</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/5.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Alan Fresco</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 6 -->
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="demo-crowdfunding-single.html">
-											<img src="/assets/demos/crowdfunding/images/items/6.jpg" alt="Image 6">
-											<span class="badge">Travel</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="demo-crowdfunding-single.html">Travel Blanket</a></h3>
-										<p>Assertively foster an expanded array of meta-services via corporate ideas. Quickly simplify virtual results and client-based.</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="80">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Funded</span>
-													<span class="counter"><span data-from="0" data-to="28" data-refresh-interval="3" data-speed="1200"></span> Days Left</span>
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> Bali, Indonesia</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>$12,32,000</strong> Pledged</li>
-												<li class="list-group-item"><strong>123</strong> Partcipants</li>
-												<li class="list-group-item"><strong>345</strong> Contributions</li>
-												<li class="list-group-item"><strong>28</strong> days remaining</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="/assets/demos/crowdfunding/images/investors/6.jpg" alt="">
-												<a href="demo-crowdfunding-single.html">By Hilary Ouse</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							{% endfor %}
+							
 						</div>
 					</div>
 				</div>
