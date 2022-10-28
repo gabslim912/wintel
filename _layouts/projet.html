@@ -1,0 +1,255 @@
+---
+layout: default
+---
+<!-- Header
+============================================= -->
+{%- include header.html -%}
+<!-- #header end -->
+</section><!-- #page-title end -->
+<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-parallax page-title-dark page-title-video include-header">
+
+			<div class="video-wrap">
+				<video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+					<source src='/assets/videos/omegapro.mp4' type='video/mp4' />
+				</video>
+				<div class="video-overlay"></div>
+			</div>
+
+			<div class="container clearfix">
+				<h1>{{ page.title }}</h1>
+				<span class="col-lg-8">{{ page.mini_desc }}</span>
+				<i class="icon-map-marker1"></i> <u>{{ page.adresse }}</u>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="/">Acceuil</a></li>
+					<li class="breadcrumb-item"><a href="/crowdfunding.html">Crowdfunding</a></li>
+					<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+				</ol>
+			</div>
+
+</section>
+<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+				<div class="container">
+					<!--<div class="row">
+						<div class="col-lg-8">
+							<div class="row justify-content-between align-items-end">
+								<div class="col-auto order-md-last mb-4 mb-md-0">
+									<a href="#" id="notifylink" data-bs-toggle="dropdown" data-bs-offset="0,15" aria-haspopup="true" aria-expanded="false" data-offset="0,12"><i  data-bs-toggle="tooltip" data-bs-placement="top" title="Share" class="icon-line-share btn btn-secondary"></i></a>
+									<div class="dropdown-menu dropdown-menu-end" aria-labelledby="notifylink">
+										<a class="dropdown-item" href="#"><i class="icon-facebook me-2"></i>Facebook</a>
+										<a class="dropdown-item" href="#"><i class="icon-twitter me-2"></i>Twitter</a>
+										<a class="dropdown-item" href="#"><i class="icon-whatsapp me-2"></i>Whatsapp</a>
+										<a class="dropdown-item" href="#"><i class="icon-code me-2"></i>Embedded</a>
+									</div>
+								</div>
+
+								<div class="col-auto">
+									
+									<h2 class="nott ls0 h2 fw-bold">{{ page.title }}</h2>
+									<p class="text-muted mb-1">{{ page.mini_desc }}</p>
+
+									
+									<div class="tagcloud my-3 clearfix">
+										<a href="#">{{ page.category }}</a>
+									</div>
+
+									<div class="clear"></div>
+
+									<i class="icon-map-marker1"></i> <u>{{ page.adresse }}</u>
+								</div>
+							</div>
+						</div>
+					</div>-->
+
+					<div class="row gutter-40 col-mb-80 mt-4">
+
+						<!-- Post Content
+						============================================= -->
+						<div class="postcontent col-lg-8">
+
+							<div class="single-post mb-0">
+
+								<!-- Single Post
+								============================================= -->
+								<div class="entry clearfix">
+
+									<!-- Entry Image
+									============================================= -->
+									<div class="entry-image mt-2">
+										<div class="mb-2">
+											<iframe src="https://player.vimeo.com/video/87235351?byline=0&portrait=0" width="912" height="513" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+										</div>
+									</div><!-- .entry-image end -->
+
+									<!-- Page Sub Menu
+									============================================= -->
+									<div id="page-menu" data-mobile-sticky="true">
+										<div id="page-menu-wrap">
+											<div class="container">
+												<div class="page-menu-row">
+
+													<nav class="page-menu-nav one-page-menu"  data-offset="150">
+														<ul class="page-menu-container">
+															<li class="page-menu-item"><a class="ms-0" data-href="#section-desc"><div>Description</div></a></li>
+															<li class="page-menu-item"><a href="#" data-href="#section-updates"><div>Actualités</div></a></li>
+															<li class="page-menu-item"><a href="#" data-href="#section-faqs"><div>FAQs</div></a></li>
+															<li class="page-menu-item"><a href="#" data-href="#section-gallery"><div>Gallerie</div></a></li>
+															<li class="page-menu-item"><a href="#" data-href="#section-reviews"><div>Commentaires</div></a></li>
+														</ul>
+													</nav>
+
+													<a href="#modal-register" data-lightbox="inline" class="button fw-semibold button-rounded ls0 nott ms-auto">Investir dans ce projet</a>
+
+													<div id="page-menu-trigger"><i class="icon-reorder"></i></div>
+
+												</div>
+											</div>
+										</div>
+									</div><!-- #page-menu end -->
+
+									<!-- Entry Content
+									============================================= -->
+									<div class="entry-content mt-4">
+
+										<div id="section-desc" class="page-section">
+											<p>{{ content }}</p>
+										</div>
+
+										<div class="line"></div>
+
+										<div id="section-updates" class="page-section">
+											<h2>Actualités</h2>
+											{% for update in page.updates %}
+											<div class="card mb-4">
+												<div class="card-body bg-light">
+													<h3 class="mb-2">{{ update.title }}</h3>
+													<a href="#">{{ update.date }}</a>
+													<p class="mb-0 mt-3">{{ update.text }}</p>
+												</div>
+											</div>
+											{% endfor %}
+										</div>
+
+										<div class="line"></div>
+
+										<div id="section-faqs" class="page-section">
+											<h2>FAQs</h2>
+
+											{% for faq in page.faqs %}
+											<div class="toggle toggle-bg">
+												<div class="toggle-header">
+													<div class="toggle-icon">
+														<i class="toggle-closed icon-comments-alt"></i>
+														<i class="toggle-open icon-comments-alt"></i>
+													</div>
+													<div class="toggle-title">
+														{{ faq.title }}
+													</div>
+												</div>
+												<div class="toggle-content">{{ faq.response }}</div>
+											</div>
+											{% endfor %}
+										</div>
+
+										<div class="line"></div>
+
+										<div id="section-gallery" class="page-section">
+											<h2>Gallerie</h2>
+											<div class="masonry-thumbs grid-container grid-6" data-big="3" data-lightbox="gallery">
+												{% for gal in page.gallery %}
+												<a class="grid-item" href="{{ gal.image }}" data-lightbox="gallery-item"><img src="{{ gal.image }}" alt="{{ gal.title }}"></a>
+												{% endfor %}
+											</div>
+										</div>
+
+										<div class="line"></div>
+
+										<div id="section-reviews" class="page-section">
+											<h2>Commentaires</h2>
+											<div class="row">
+												{% for com in page.reviews %}
+												<div class="col-12 mb-5 pb-4 border-bottom">
+													<div class="d-flex align-items-center mb-3">
+														<img src="{{ com.profile_picture }}" alt="{{ com.auteur }}" class="rounded-circle me-3" width="40" height="40">
+														<div>
+															<h4 class="mb-1 h6">{{ com.auteur }}</h4>
+															<h6 class="text-muted mb-0 fw-normal">{{ com.date }}</h6>
+														</div>
+													</div>
+													<p>{{ com.text }}</p>
+												</div>
+												{% endfor %}
+											</div>
+										</div>
+										<!-- Post Single - Content End -->
+
+									</div>
+								</div><!-- .entry end -->
+
+							</div>
+
+						</div><!-- .postcontent end -->
+
+						<!-- Sidebar
+						============================================= -->
+						<div class="sidebar col-lg-4">
+							<div class="sidebar-widgets-wrap">
+
+								<div>
+									<h3 class="fw-bold h2 mb-2 color">{{ page.fond }} FCFA Collectés</h3>
+									<span class="text-uppercase text-smaller op-07">But: {{ page.objectif }} FCFA</span>
+									<ul class="skills mt-4">
+										<li data-percent="73" style="height: 7px">
+											<span class="d-flex justify-content-between w-100">
+												{% assign percentage = page.fond | times: 100 %}
+												<span class="counter counter-xs h6"><span data-from="0" data-to="{{ percentage | divided_by: page.objectif }}" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Financé</span>
+												
+											</span>
+											<div class="progress"></div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="line line-sm"></div>
+
+								<div>
+									<h3 class="fw-bold h1 mb-2">{{ page.participants }}</h3>
+									<span class="text-uppercase text-smaller op-07">Participants</span>
+								</div>
+
+								<div class="line line-sm"></div>
+
+								<div>
+									<h3 class="fw-bold h1 mb-2">{{ page.contibutions }}</h3>
+									<span class="text-uppercase text-smaller op-07">Contributions</span>
+								</div>
+
+								<div class="line line-sm"></div>
+
+								
+								<div class="clear mt-4"></div>
+								<a href="#modal-register" data-lightbox="inline" class="button button-xlarge fw-semibold button-rounded ls0 nott ms-0 my-4 w-100 text-center">Investir</a>
+
+								<!-- Post Author Info
+								============================================= -->
+								<div class="card mt-4">
+									<div class="card-header"><strong>Publié par <a href="#">{{ page.auteur }}</a></strong></div>
+									<div class="card-body">
+										<div class="author-image">
+											<img src="{{ page.profil_auteur }}" alt="Image" class="rounded-circle">
+										</div>
+										{{ page.description_auteur }}
+									</div>
+								</div><!-- Post Single - Author End -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- #content end -->

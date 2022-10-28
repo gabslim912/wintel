@@ -4,240 +4,257 @@ layout: default
 <!-- Header
 ============================================= -->
 {%- include header-crowdfunding.html -%}
-<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element min-vh-100 include-header" style="background: url('/assets/images/wintel/miss_senegal_ordi_4.jpg') no-repeat center bottom / cover;">
-			<div class="slider-inner">
+<section id="page-title" class="page-title-parallax include-header " style=" padding: 120px 0; background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)), url('/assets/images/wintel/officers_3.jpg'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -400px;">
 
-				<div class="vertical-middle">
-					<div class="container py-5">
-						<div class="row">
-							<div class="col-lg-6 col-md-8">
-								<div class="slider-title">
-									<h1 class="fw-semibold text-white">La meilleure plateforme de Crowd-funding pour votre Startup.</h1>
-									<p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum quod facilis praesentium quaerat fuga voluptatum aliquam vitae, voluptate asperiores!</p>
-								</div>
-								<a href="#modal-register" data-lightbox="inline" class="button button-large fw-semibold button-rounded ls0 nott ms-0">Soumettre un projet</a>
-								<br>
-								<a href="#" class="text-white">Télécharger la brochure <i class="icon-caret-right1 position-relative" style="top: 2px"></i></a>
-							</div>
+			<div class="container clearfix">
+				<h1 class="text-white">{{ page.title }}</h1>
+				<span class="text-white">{{ page.description }}</span>
+				<ol class="breadcrumb text-white">
+					<li class="breadcrumb-item text-white"><a href="/">Acceuil</a></li>
+					<li class="breadcrumb-item text-white active" aria-current="page">{{ page.title }}</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+		
+
+<!-- Content
+============================================= -->
+<section id="content">
+	<div class="content-wrap pt-0">
+
+		<div class="section bg-transparent mt-0 mb-0 pb-0 border-0">
+			<div class="container bg-color-light border-0 rounded-3 p-4 p-md-5">
+				<div class="row justify-content-between align-items-center bottommargin-sm">
+					<div class="col-lg-7 col-sm-7">
+						<div class="heading-block border-bottom-0 mb-3">
+							<h2>Comment ca marche</h2>
+						</div>
+						<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit fugiat quisquam nesciunt. Dicta quis, rem consequuntur est beatae qui.</p>
+					</div>
+					<div class="col-lg-3 col-sm-5 mt-4 mt-sm-0">
+						<div class="bg-white center px-5 py-3 border">
+							<div class="counter counter-large color fw-bold"><span data-from="0" data-to="86" data-refresh-interval="10" data-speed="1500"></span>%</div>
+							<div class="line my-2"></div>
+							<h5 class="fw-normal mb-1">Projets financés</h5>
 						</div>
 					</div>
 				</div>
-				<!--<img src="/assets/demos/crowdfunding/images/hero-img.svg" alt="" class="slider-img parallax" data-start="margin-top: 0px;" data-400="margin-top: 50px;">-->
+				<div class="clear"></div>
+				<div class="row justify-content-around">
+					<div class="col-lg-3 col-md-4 mt-5">
+						<div class="feature-text">
+							<div class="fbox-text color">1.</div>
+							<h3>Soumettez votre projet.</h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-5">
+						<div class="feature-text">
+							<div class="fbox-text color">2.</div>
+							<h3>Etude de votre projet.</h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-5">
+						<div class="feature-text">
+							<div class="fbox-text color">3.</div>
+							<h3>Financement et Accompagnement.</h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
 
 			</div>
-		</section><!-- #Slider End -->
+		</div>
+	</div>
+</section>
 
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap p-0">
+<section id="slider" class="slider-element min-vh-100 " style="background: url('/assets/images/wintel/miss_senegal_ordi_4.jpg') no-repeat center bottom / cover;">
+	<div class="slider-inner">
 
-				<div class="section bg-transparent mb-0 pb-0 border-0">
-					<div class="container bg-color-light border-0 rounded-3 p-4 p-md-5">
-						<div class="row justify-content-between align-items-center bottommargin-sm">
-							<div class="col-lg-7 col-sm-7">
-								<div class="heading-block border-bottom-0 mb-3">
-									<h2>Comment ca marche</h2>
-								</div>
-								<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit fugiat quisquam nesciunt. Dicta quis, rem consequuntur est beatae qui.</p>
-							</div>
-							<div class="col-lg-3 col-sm-5 mt-4 mt-sm-0">
-								<div class="bg-white center px-5 py-3 border">
-									<div class="counter counter-large color fw-bold"><span data-from="0" data-to="86" data-refresh-interval="10" data-speed="1500"></span>%</div>
-									<div class="line my-2"></div>
-									<h5 class="fw-normal mb-1">Projets financés</h5>
-								</div>
-							</div>
+		<div class="vertical-middle">
+			<div class="container py-5">
+				<div class="row">
+					<div class="col-lg-6 col-md-8">
+						<div class="slider-title">
+							<h1 class="fw-semibold text-white">La meilleure plateforme de Crowd-funding pour votre Startup.</h1>
+							<p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A earum quod facilis praesentium quaerat fuga voluptatum aliquam vitae, voluptate asperiores!</p>
 						</div>
-						<div class="clear"></div>
-						<div class="row justify-content-around">
-							<div class="col-lg-3 col-md-4 mt-5">
-								<div class="feature-text">
-									<div class="fbox-text color">1.</div>
-									<h3>Soumettez votre projet.</h3>
-								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<div class="col-lg-3 col-md-4 mt-5">
-								<div class="feature-text">
-									<div class="fbox-text color">2.</div>
-									<h3>Etude de votre projet.</h3>
-								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<div class="col-lg-3 col-md-4 mt-5">
-								<div class="feature-text">
-									<div class="fbox-text color">3.</div>
-									<h3>Financement et Accompagnement.</h3>
-								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-						</div>
-
+						<a href="#modal-register" data-lightbox="inline" class="button button-large fw-semibold button-rounded ls0 nott ms-0">Soumettre un projet</a>
+						<br>
+						<a href="#" class="text-white">Télécharger la brochure <i class="icon-caret-right1 position-relative" style="top: 2px"></i></a>
 					</div>
-				</div>
-
-				<div class="section border-0 bg-transparent mb-1">
-					<div class="container">
-						<div class="row justify-content-between align-items-end bottommargin">
-							<div class="col-md-7">
-								<div class="heading-block border-bottom-0 mb-3">
-									<h2>Pret à investir? Explorez nos projets</h2>
-								</div>
-								<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit fugiat quisquam nesciunt. Dicta quis, rem consequuntur est beatae qui.</p>
-							</div>
-							<!--<div class="col-md-5 d-flex flex-row justify-content-md-end mt-4 mt-md-0">
-								<div class="dropdown">
-									<a class="dropdown-toggle button button-border button-rounded ls0 fw-semibold nott btn" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									All Projects
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="#">+ Tech &amp; Innovations</a>
-										<a class="dropdown-item" href="#">+ Art</a>
-										<a class="dropdown-item" href="#">+ Travel</a>
-										<a class="dropdown-item" href="#">+ Music</a>
-										<a class="dropdown-item" href="#">+ Gadgets</a>
-										<a class="dropdown-item" href="#">+ Fashion</a>
-									</div>
-								</div>
-								<div class="dropdown">
-									<a class="dropdown-toggle button button-border button-rounded ls0 fw-semibold nott btn" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Most Funded
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="#">Recent Projects</a>
-										<a class="dropdown-item" href="#">Popular Projects</a>
-										<a class="dropdown-item" href="#">Ending Soon</a>
-									</div>
-								</div>
-							</div>-->
-						</div>
-
-						<div class="row">
-
-							<!-- Item 1 -->
-							{% for projet in site.projets %}
-							<div class="col-lg-4 col-sm-6 mb-4">
-								<div class="i-products">
-									<div class="products-image">
-										<a href="{{ projet.url }}" target="blank">
-											<img src="{{ projet.main_image }}" alt="{{ projet.title }}">
-											<span class="badge">{{ projet.category }}</span>
-										</a>
-									</div>
-									<div class="products-desc">
-										<h3><a href="{{ projet.url }}" target="blank">{{ projet.title }}</a></h3>
-										<p>{{ projet.mini_desc }}</p>
-										<div class="clear"></div>
-										<ul class="skills">
-											<li data-percent="73">
-												<span class="d-flex justify-content-between w-100">
-													<span class="counter"><span data-from="0" data-to="73" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Financé</span>
-													
-												</span>
-												<div class="progress"></div>
-											</li>
-										</ul>
-										<div class="products-hoverlays">
-											<span class="products-location"><i class="icon-map-marker1"></i> {{ projet.adresse }}</span>
-											<ul class="list-group-flush my-3 mb-0">
-												<li class="list-group-item"><strong>{{ projet.objectif }} FCFA</strong> Collectés</li>
-												<li class="list-group-item"><strong>{{ projet.participants }}</strong> Participants</li>
-												<li class="list-group-item"><strong>{{ projet.contibutions }}</strong> Contributions</li>
-												<li class="list-group-item"><strong>Date:</strong>{{ projet.date }}</li>
-											</ul>
-											<div class="product-user d-flex align-items-center mt-4">
-												<img src="{{ projet.profil_auteur }}" alt="{{ projet.auteur }}">
-												<a href="demo-crowdfunding-single.html">Par {{ projet.auteur }}</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							{% endfor %}
-							
-						</div>
-					</div>
-				</div>
-
-				<div class="section m-0">
-
-					<div class="container">
-
-						<h3 class="center mb-5">Ils Nous Font Confiance.</h3>
-
-						<div class="row g-0 align-items-center p-4 bg-white rounded overflow-hidden flex-md-row shadow-sm position-relative mx-auto" style="max-width: 1000px">
-							<div class="col p-4 d-flex flex-column center">
-								<h3 class="mb-0">Souleymane Faye</h3>
-								<p class="text-black-50">Revovision inc.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptas adipisci fugiat, nostrum aspernatur quos libero possimus velit impedit cumque.</p>
-								<img src="demos/business/images/clients/amazon.svg" alt="">
-							</div>
-							<div class="col-auto">
-								<img src="/assets/demos/crowdfunding/images/credit.jpg" alt="" width="400">
-							</div>
-						</div>
-
-						<div class="row justify-content-center align-items-center mx-auto mt-5" style="max-width: 1000px">
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/amazon.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/cnn.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/google.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/linkedin.svg" alt="" width="100"></div>
-						</div>
-						<div class="row justify-content-center align-items-center mx-auto mt-3" style="max-width: 1000px">
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/netflix.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/slack.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/vimeo.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/jetblue.svg" alt="" width="100"></div>
-							<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/github.svg" alt="" width="100"></div>
-						</div>
-
-					</div>
-
-				</div>
-
-				<div class="section bg-transparent p-0 m-0">
-
-					<div class="row g-0">
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/1.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/2.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/3.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/4.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/5.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/6.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/7.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/8.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/9.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/10.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/11.jpg" alt="Investor Image"></a></div>
-					</div>
-					<div class="row g-0">
-						<div class="col d-none d-md-flex"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/23.jpg" alt="Investor Image"></a></div>
-						<div class="col-md-10 d-md-flex justify-content-between align-items-center px-5 py-4 py-md-0">
-							<div class="mb-3 mb-md-0">
-								<h3 class="mb-0 color">Rejoignez notre communauté d investisseurs.</h3>
-								<p class="mb-0 text-muted fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-							<a href="#modal-register" data-lightbox="inline" class="button button-large fw-semibold button-rounded ls0 nott m-0">Devenez un investisseur</a>
-						</div>
-						<div class="col d-none d-md-flex"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/24.jpg" alt="Investor Image"></a></div>
-					</div>
-					<div class="row g-0">
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/12.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/13.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/14.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/15.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/16.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/17.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/18.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/19.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/20.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/21.jpg" alt="Investor Image"></a></div>
-						<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/22.jpg" alt="Investor Image"></a></div>
-					</div>
-
 				</div>
 			</div>
-		</section><!-- #content end -->
+		</div>
+		<!--<img src="/assets/demos/crowdfunding/images/hero-img.svg" alt="" class="slider-img parallax" data-start="margin-top: 0px;" data-400="margin-top: 50px;">-->
+
+	</div>
+</section><!-- #Slider End -->
+<section id="content">
+	<div class="content-wrap p-0">
+
+		<div class="section border-0 bg-transparent mb-1">
+			<div class="container">
+				<div class="row justify-content-between align-items-end bottommargin">
+					<div class="col-md-7">
+						<div class="heading-block border-bottom-0 mb-3">
+							<h2>Pret à investir? Explorez nos projets</h2>
+						</div>
+						<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit fugiat quisquam nesciunt. Dicta quis, rem consequuntur est beatae qui.</p>
+					</div>
+					<!--<div class="col-md-5 d-flex flex-row justify-content-md-end mt-4 mt-md-0">
+						<div class="dropdown">
+							<a class="dropdown-toggle button button-border button-rounded ls0 fw-semibold nott btn" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							All Projects
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">+ Tech &amp; Innovations</a>
+								<a class="dropdown-item" href="#">+ Art</a>
+								<a class="dropdown-item" href="#">+ Travel</a>
+								<a class="dropdown-item" href="#">+ Music</a>
+								<a class="dropdown-item" href="#">+ Gadgets</a>
+								<a class="dropdown-item" href="#">+ Fashion</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<a class="dropdown-toggle button button-border button-rounded ls0 fw-semibold nott btn" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Most Funded
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Recent Projects</a>
+								<a class="dropdown-item" href="#">Popular Projects</a>
+								<a class="dropdown-item" href="#">Ending Soon</a>
+							</div>
+						</div>
+					</div>-->
+				</div>
+
+				<div class="row">
+
+					<!-- Item 1 -->
+					{% for projet in site.projets %}
+					<div class="col-lg-4 col-sm-6 mb-4">
+						<div class="i-products">
+							<div class="products-image">
+								<a href="{{ projet.url }}" target="blank">
+									<img src="{{ projet.main_image }}" alt="{{ projet.title }}">
+									<span class="badge">{{ projet.category }}</span>
+								</a>
+							</div>
+							<div class="products-desc">
+								<h3><a href="{{ projet.url }}" target="blank">{{ projet.title }}</a></h3>
+								<p>{{ projet.mini_desc }}</p>
+								<div class="clear"></div>
+								<ul class="skills">
+									<li data-percent="73">
+										<span class="d-flex justify-content-between w-100">
+											{% assign percentage = projet.fond | times: 100 %}
+											<span class="counter"><span data-from="0" data-to="{{ percentage | divided_by: projet.objectif }}" data-refresh-interval="10" data-speed="2000"></span><strong>%</strong> Financé</span>
+											
+										</span>
+										<div class="progress"></div>
+									</li>
+								</ul>
+								<div class="products-hoverlays">
+									<span class="products-location"><i class="icon-map-marker1"></i> {{ projet.adresse }}</span>
+									<ul class="list-group-flush my-3 mb-0">
+										<li class="list-group-item"><strong>{{ projet.objectif }} FCFA</strong> Collectés</li>
+										<li class="list-group-item"><strong>{{ projet.participants }}</strong> Participants</li>
+										<li class="list-group-item"><strong>{{ projet.contibutions }}</strong> Contributions</li>
+										<li class="list-group-item"><strong>Date:</strong>{{ projet.date }}</li>
+									</ul>
+									<div class="product-user d-flex align-items-center mt-4">
+										<img src="{{ projet.profil_auteur }}" alt="{{ projet.auteur }}">
+										<a href="demo-crowdfunding-single.html">Par {{ projet.auteur }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="section m-0">
+
+			<div class="container">
+
+				<h3 class="center mb-5">Ils Nous Font Confiance.</h3>
+
+				<div class="row g-0 align-items-center p-4 bg-white rounded overflow-hidden flex-md-row shadow-sm position-relative mx-auto" style="max-width: 1000px">
+					<div class="col p-4 d-flex flex-column center">
+						<h3 class="mb-0">Souleymane Faye</h3>
+						<p class="text-black-50">Revovision inc.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptas adipisci fugiat, nostrum aspernatur quos libero possimus velit impedit cumque.</p>
+						<img src="demos/business/images/clients/amazon.svg" alt="">
+					</div>
+					<div class="col-auto">
+						<img src="/assets/demos/crowdfunding/images/credit.jpg" alt="" width="400">
+					</div>
+				</div>
+
+				<div class="row justify-content-center align-items-center mx-auto mt-5" style="max-width: 1000px">
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/amazon.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/cnn.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/google.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/linkedin.svg" alt="" width="100"></div>
+				</div>
+				<div class="row justify-content-center align-items-center mx-auto mt-3" style="max-width: 1000px">
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/netflix.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/slack.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/vimeo.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/jetblue.svg" alt="" width="100"></div>
+					<div class="col center"><img src="/assets/demos/crowdfunding/images/sponsors/github.svg" alt="" width="100"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="section bg-transparent p-0 m-0">
+
+			<div class="row g-0">
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/1.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/2.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/3.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/4.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/5.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/6.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/7.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/8.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/9.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/10.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/11.jpg" alt="Investor Image"></a></div>
+			</div>
+			<div class="row g-0">
+				<div class="col d-none d-md-flex"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/23.jpg" alt="Investor Image"></a></div>
+				<div class="col-md-10 d-md-flex justify-content-between align-items-center px-5 py-4 py-md-0">
+					<div class="mb-3 mb-md-0">
+						<h3 class="mb-0 color">Rejoignez notre communauté d investisseurs.</h3>
+						<p class="mb-0 text-muted fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<a href="#modal-register" data-lightbox="inline" class="button button-large fw-semibold button-rounded ls0 nott m-0">Devenez un investisseur</a>
+				</div>
+				<div class="col d-none d-md-flex"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/24.jpg" alt="Investor Image"></a></div>
+			</div>
+			<div class="row g-0">
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/12.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/13.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/14.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/15.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/16.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/17.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/18.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/19.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/20.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/21.jpg" alt="Investor Image"></a></div>
+				<div class="col"><a href="#"><img class="op-ts op-1 h-op-06" src="/assets/demos/crowdfunding/images/investors/22.jpg" alt="Investor Image"></a></div>
+			</div>
+
+		</div>
+	</div>
+</section><!-- #content end -->
