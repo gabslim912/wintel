@@ -5,9 +5,9 @@ prix: 100
 frais_activation_omp: 99
 frais_activation_wintel: 10
 frais_activation_binance: 15
-layout: ''
+layout: 'license'
 logo: "/uploads/startup-license.jpg"
-image: "/uploads/start-img.png"
+image: "/uploads/omegapro.jpg"
 disclaimer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at
   magna vel eros elementum consectetur in a augue. '
 type: Client

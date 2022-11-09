@@ -12,7 +12,7 @@ frais_activation_binance: 15
 image: "/uploads/omegapro.jpg"
 disclaimer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at
   magna vel eros elementum consectetur in a augue. '
-layout: ''
+layout: 'license'
 logo: "/uploads/8000.jpeg"
 
 ---
