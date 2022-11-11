@@ -39,6 +39,14 @@
 	<script src="/assets/include/rs-plugin/js/addons/revolution.addon.slicey.min.js"></script>
 
 
+	<!-- DatePicker JS -->
+	<script src="/assets/js/components/datepicker.js"></script>
+
+	<!-- Bootstrap File Upload Plugin -->
+	<script src="/assets/js/components/bs-filestyle.js"></script>
+
+	<!-- TinyMCE Plugin -->
+	<script src="/assets/js/components/tinymce/tinymce.min.js"></script>
 	<script src="/assets/include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
 	<script src="/assets/include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
 	<script src="/assets/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
@@ -534,6 +542,33 @@
 			window.myRadar = new Chart(document.getElementById("chart-radar"), configRadar);
 		};
 
+	</script>
+	<script>
+		jQuery(document).ready( function(){
+			$('.dobpicker').datepicker({
+				autoclose: true,
+			});
+
+			$("#jobs-application-resume").fileinput({
+				required: true,
+				browseClass: "btn btn-secondary",
+				browseIcon: "",
+				removeClass: "btn btn-danger",
+				removeLabel: "",
+				removeIcon: "<i class='icon-trash-alt1'></i>",
+				showUpload: false
+			});
+
+			tinymce.init({
+				selector: '#jobs-application-message',
+				menubar: false,
+				setup: function(editor) {
+					editor.on('change', function(e) {
+						editor.save();
+					});
+				}
+			});
+		})
 	</script>
 
 </body>

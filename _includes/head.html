@@ -29,7 +29,11 @@
   <link rel="stylesheet" href="/assets/demos/crowdfunding/crowdfunding.css" type="text/css" />
   <link rel="stylesheet" href="/assets/demos/crowdfunding/css/fonts.css" type="text/css" />
   <!-- / -->
-  <!-- / -->
+  <!-- DatePicker CSS -->
+  <link rel="stylesheet" href="/assets/css/components/datepicker.css" type="text/css" />
+
+  <!-- Bootstrap File Upload CSS -->
+  <link rel="stylesheet" href="/assets/css/components/bs-filestyle.css" type="text/css" />
 
   <!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
   <link rel="stylesheet" type="text/css" href="/assets/include/rs-plugin/css/settings.css" media="screen" />
@@ -141,6 +145,33 @@
         top: 80px;
       }
     }
+  </style>
+
+  <style>
+    .form-group > label.error {
+      display: block !important;
+      text-transform: none;
+    }
+
+    .form-group input.valid ~ label.error,
+    .form-group input[type="text"] ~ label.error,
+    .form-group input[type="email"] ~ label.error,
+    .form-group input[type="number"] ~ label.error,
+    .form-group select ~ label.error { display: none !important; }
+
+    .calories-wrap {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  </style>
+  <style>
+  .file-caption.icon-visible .file-caption-name {
+    font-family: 'Lato', sans-serif;
+    color: #666;
+  }
   </style>
 
 </head>

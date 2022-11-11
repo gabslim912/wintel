@@ -3,24 +3,23 @@ layout: default
 ---
 <!-- Header
 ============================================= -->
-{%- include header-part.html -%}
-<!-- #header end -->
-		<!-- Page Title
+{%- include header.html -%}
+<!-- Page Title
 		============================================= -->
-		<section id="page-title">
+		
+
+			<section id="page-title" class="page-title-parallax include-header " style=" padding: 120px 0; background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)), url('/uploads/directeurs-1.jpg'); background-size: cover; background-position: center top;" data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -400px;">
 
 			<div class="container clearfix">
-				<h1>FAQs</h1>
-				<span>Les Questions frequemment posées</span>
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item"><a href="#">Pages</a></li>
-					<li class="breadcrumb-item active" aria-current="page">FAQs</li>
+				<h1 class="text-white">{{ page.title }}</h1>
+				<span class="text-white">{{ page.description }}</span>
+				<ol class="breadcrumb text-white">
+					<li class="breadcrumb-item text-white"><a href="/">Acceuil</a></li>
+					<li class="breadcrumb-item text-white active" aria-current="page">{{ page.title }}</li>
 				</ol>
 			</div>
 
 		</section><!-- #page-title end -->
-
 		<!-- Content
 		============================================= -->
 		<section id="content">
