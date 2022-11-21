@@ -44,106 +44,21 @@ layout: default
 					<div class="col-lg-8 p-5">
 						
 						
-								<form class="row mb-0" action="https://formkeep.com/f/8d72761296c2" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
-									<!--<div class="form-process">
-										<div class="css3-spinner">
-											<div class="css3-spinner-scaler"></div>
-										</div>
-									</div>-->
-									<div class="col-12 form-group">
-										<label>Nom du projet:</label>
-										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Entrer le nom du projet">
-									</div>
-									<div class="col-12 form-group">
-										<label>Nom du porteur de projet:</label>
-										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Entrer le nom du porteur de projet">
-									</div>
-									<div class="col-12 form-group">
-										<label>Email:</label>
-										<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Entrer votre mail">
-									</div>
-									<!--<div class="col-12 form-group">
-										<div class="row">
-											<div class="col-md-6 form-group">
-												<label>Telephone:</label>
-												<input type="text" name="jobs-application-phone" id="jobs-application-phone" class="form-control required" value="" placeholder="Entrer votre numero de téléphone">
-											</div>
-											<div class="col-md-6 form-group">
-												<label>Ville:</label>
-												<input type="text" name="jobs-application-location" id="jobs-application-location" class="form-control" value="" placeholder="Entrer votre ville">
-											</div>
-											<div class="col-md-6 form-group">
-												<label>Montant souhaité:</label>
-												<input type="text" name="jobs-application-montant" id="jobs-application-montant" class="form-control required" value="" placeholder="Montant du financement souhaité">
-											</div>
-											<div class="col-md-6 form-group">
-												<label>Collaborateurs:</label>
-												<input type="text" name="jobs-application-collaborateurs" id="jobs-application-collaborateurs" class="form-control" value="" placeholder="Nombre de collaborateurs">
-											</div>
-											<div class="w-100"></div>
-											<div class="col-md-6 form-group">
-												<label>Date de début souhaitée:</label>
-												<input type="text" class="form-control dobpicker required" name="jobs-application-date-of-birth" id="jobs-application-date-of-birth" value="" placeholder="MM/DD/YYYY" data-date-end-date="-18y">
-											</div>
-											<div class="col-md-6 form-group">
-												<label>Genre:</label>
-												<div class="btn-group d-flex" data-bs-toggle="buttons">
-													<input type="radio" class="btn-check" name="jobs-application-gender" id="jobs-application-gender-male" value="Homme">
-													<label class="btn btn-outline-secondary nott ls0" for="jobs-application-gender-male">Homme</label>
+								<form action="https://formkeep.com/f/8d72761296c2"
+      accept-charset="UTF-8"
+      enctype="multipart/form-data"
+      method="POST">
+  <input type="hidden" name="utf8" value="✓">
 
-													<input type="radio" class="btn-check" name="jobs-application-gender" id="jobs-application-gender-female" value="Femme">
-													<label class="btn btn-outline-secondary nott ls0" for="jobs-application-gender-female">Femme</label>
-												</div>
-												 <select class="form-select" name="jobs-application-gender" id="jobs-application-gender">
-													<option value="">-- Select One --</option>
-													<option value="Male">Male</option>
-													<option value="Female">Female</option>
-												</select> 
-											</div>
-											<div class="w-100"></div>
-											<div class="col-md-6 form-group">
-												<label>Type:</label>
-												<select class="form-select required" name="jobs-application-type" id="jobs-application-type">
-													<option value="">-- Selectionnez --</option>
-													<option value="Agriculture">Agriculture</option>
-													<option value="Elevage">Elevage</option>
-													<option value="Services">Services</option>
-													<option value="Informatique">Informatique</option>
-												</select>
-											</div>
-											<div class="col-md-6 form-group">
-												<label>Experience:</label>
-												<select class="form-select required" name="jobs-application-experience" id="jobs-application-experience">
-													<option value="">-- Selectionnez --</option>
-													<option value="Moins d'un an">Moins d'un an</option>
-													<option value="1 à 4 ans">1 à 4 ans</option>
-													<option value="4 à 7 ans">4 à 7 ans</option>
-													<option value="7 ans et plus">7 ans et plus</option>
-												</select>
-											</div>
-										</div>
-										<div class="form-group">
-											<label>Télécharger votre CV:</label>
-											<input type="file" id="jobs-application-resume" name="jobs-application-resume" class="file-loading form-select required" data-show-preview="false" />
-										</div>
-										<div class="col-12 form-group">
-										<label>Video de présentation:</label>
-										<input type="text" name="jobs-application-video" id="jobs-application-video" class="form-control required" value="" placeholder="Lien vers la video de présentation du projet">
-									</div>
-										<div class="form-group">
-											<label>Description du projet:</label>
-											<textarea name="jobs-application-message" id="jobs-application-message" class="form-control required" cols="30" rows="10"></textarea>
-										</div>
-									</div>
-									<div class="col-12 d-none">
-										<input type="text" id="jobs-application-botcheck" name="jobs-application-botcheck" value="" />
-									</div>-->
-									<div class="col-12">
-										<button type="submit" class="btn btn-secondary">Soumettre</button>
-									</div>
+  <label for="email-address">Email Address</label>
+  <input type="email" id="email-address" name="email">
 
-									<!--<input type="hidden" name="prefix" value="jobs-application-">-->
-								</form>
+  <label for="photo-album">Photos</label>
+  <input type="file" id="photo-album" multiple name="photos[]">
+
+  <button type="submit">Submit</button>
+</form>
+
 					</div>
 
 				</div>
