@@ -45,11 +45,9 @@ layout: default
 						
 						
 						<form class="row mb-0" action="https://formkeep.com/f/8d72761296c2"    accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
-									<div class="form-process">
-										<div class="css3-spinner">
-											<div class="css3-spinner-scaler"></div>
-										</div>
-									</div>
+							 <!-- The hidden redirect form element -->
+  									<input type="hidden" id="redirect" name="_redirect_url" value="/">
+									
 									<div class="col-12 form-group">
 										<label>Nom du projet:</label>
 										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Entrer le nom du projet">
@@ -62,7 +60,7 @@ layout: default
 										<label>Email:</label>
 										<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Entrer votre mail">
 									</div>
-									<div class="col-12 form-group">
+									<!--<div class="col-12 form-group">
 										<div class="row">
 											<div class="col-md-6 form-group">
 												<label>Telephone:</label>
@@ -94,11 +92,11 @@ layout: default
 													<input type="radio" class="btn-check" name="jobs-application-gender" id="jobs-application-gender-female" value="Femme">
 													<label class="btn btn-outline-secondary nott ls0" for="jobs-application-gender-female">Femme</label>
 												</div>
-												<!-- <select class="form-select" name="jobs-application-gender" id="jobs-application-gender">
+												 <select class="form-select" name="jobs-application-gender" id="jobs-application-gender">
 													<option value="">-- Select One --</option>
 													<option value="Male">Male</option>
 													<option value="Female">Female</option>
-												</select> -->
+												</select> 
 											</div>
 											<div class="w-100"></div>
 											<div class="col-md-6 form-group">
@@ -134,7 +132,7 @@ layout: default
 											<label>Description du projet:</label>
 											<textarea name="jobs-application-message" id="jobs-application-message" class="form-control required" cols="30" rows="10"></textarea>
 										</div>
-									</div>
+									</div>-->
 									<div class="col-12 d-none">
 										<input type="text" id="jobs-application-botcheck" name="jobs-application-botcheck" value="" />
 									</div>
