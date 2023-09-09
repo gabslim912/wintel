@@ -21,6 +21,6 @@ gallery:
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at
     magna vel eros elementum consectetur in a augue. Fusce facilisis blandit convallis.
   image: "/uploads/2.jpg"
-published: false
+published: true
 
 ---
