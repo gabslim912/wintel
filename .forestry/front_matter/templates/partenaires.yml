@@ -1,0 +1,68 @@
+---
+label: partenaires
+hide_body: true
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+- name: nom
+  type: text
+  config:
+    required: false
+  label: Nom
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: description_pdf
+  type: file
+  config:
+    maxSize: 64
+  label: Description PDF
+- name: gallery
+  type: field_group_list
+  fields:
+  - name: titre
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image ou Vidéo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Gallery
+pages:
+- _partenaires/Omegapro.md
