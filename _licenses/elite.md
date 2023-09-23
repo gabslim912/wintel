@@ -1,19 +1,23 @@
 ---
-title: Elite
-type: Client
-description: Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend
-  lacus, sit amet varius quam leo a libero. In nec varius neque. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Fusce vel nibh lorem. Donec interdum aliquam
-  sapien, at pulvinar felis pellentesque eget.
-prix: 25000
-frais_activation_omp: 99
-frais_activation_wintel: 10
-frais_activation_binance: 15
-image: "/uploads/omegapro.jpg"
-disclaimer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at
-  magna vel eros elementum consectetur in a augue. '
+title: ELITE
+type: Tawfeex
 layout: license
-logo: "/uploads/25000.jpeg"
 _template: licences
+mini_description: Avec le pack standard à 1 000 000 FCFA, le client peut gagner 70% des commissions.
+validite: Validite illimite
+reseau: Expansion de réseaux automatisés
+niveaux: Acces aux niveauX 1,2,3 & 4
+commissions_bienvenue: 80000FCFA de bienvenue
+commissions_directes: 70% de commissions directes
+actions: 1000 actions de l'entreprise TAWFEEX
+prix: 1000000
+frais_carte: 99
+frais_activation_wintel: 10
+disclaimer: "Ceux-ci sont des estimations et varient en fonction de l'expansion du reseau Wintel dans sa globalite "
+image: "/uploads/LSI-cards-1.jpg"
+logo: "/uploads/logo.jpeg"
 ---
 
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
