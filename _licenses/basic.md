@@ -7,7 +7,7 @@ mini_description: Avec le pack standard à 35 000 FCFA, le client peut gagner 50
   commissions.
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
-niveaux: Acces aux niveaux 1 & 2
+niveaux: Accès aux niveaux 1 & 2
 commissions_bienvenue: 10000FCFA de bienvenue
 commissions_directes: 50% de commissions directes
 actions: 125 actions de l'entreprise TAWFEEX

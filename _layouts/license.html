@@ -11,7 +11,7 @@ layout: default
 
 <div class="container clearfix">
 	<h1 class="text-white">PACKAGE {{ page.title }}</h1>
-	<span class="text-white">Achat du package {{ page.type }} Omegapro {{ page.title }} de ${{ page.prix }}</span>
+	<span class="text-white">Achat du package {{ page.type }} PLUS {{ page.title }} de {{ page.prix }} CFA</span>
 	<ol class="breadcrumb text-white">
 		<li class="breadcrumb-item text-white"><a href="/">Acceuil</a></li>
 		<li class="breadcrumb-item text-white active" aria-current="page">{{ page.title }}</li>
@@ -36,9 +36,8 @@ layout: default
 									============================================= -->
 									<div class="position-relative" data-lightbox="gallery">
 										<div class="sale-flash badge bg-danger p-2">Promo!</div>
-										<a class="mb-3 d-block" href="{{ page.logo }}" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="Pink Printed Dress"></a>
-										<a class="mb-3 d-block" href="{{ page.logo }}" title="Pink Printed Dress - Side View" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="Pink Printed Dress"></a>
-										<a class="mb-3 d-block" href="{{ page.logo }}" title="Pink Printed Dress - Back View" data-lightbox="gallery-item"><img src="{{ page.logo }}" alt="Pink Printed Dress"></a>
+										<a class="mb-3 d-block" href="{{ page.image }}" title="Pink Printed Dress - Front View" data-lightbox="gallery-item"><img src="{{ page.image }}" alt="Pink Printed Dress"></a>
+										
 									</div><!-- Product Single - Gallery End -->
 
 								</div>
@@ -49,11 +48,11 @@ layout: default
 
 										<!-- Product Single - Price
 										============================================= -->
-										<div class="product-price"><ins>Prix: {{ page.prix }} USD</ins></div><!-- Product Single - Price End -->
+										<div class="product-price"><ins>Prix: {{ page.prix }} FCFA</ins></div><!-- Product Single - Price End -->
 
 										<!-- Product Single - Rating
 										============================================= -->
-										<button type="submit" class="add-to-cart button m-0">Acheter</button>
+										<button type="submit" class="add-to-cart button m-0">Acheter maintenant</button>
 
 									</div>
 
@@ -65,9 +64,9 @@ layout: default
 									<p>{{ page.description }}</p>
 									<ul class="iconlist">
 										{% assign gain = page.prix | times: 3 %}
-										<li><i class="icon-caret-right"></i> Retour sur investissement de {{ gain }} USD au bout de 16 mois </li>
-										<li><i class="icon-caret-right"></i> 7% de bonus de parrainage en vente directe</li>
-										<li><i class="icon-caret-right"></i> Rembousement à tout moment</li>
+										<li><i class="icon-caret-right"></i> Durée de {{ page.validite }} : Une durée de validité qui ne se limite pas dans le temps. </li>
+										<li><i class="icon-caret-right"></i> Établissement et expansion automatisés du réseau : La mise en place et la croissance d'un réseau qui se réalisent de manière automatisée.</li>
+										<li><i class="icon-caret-right"></i> Accès {{ page.validite }} automatique : L'accès aux niveaux hiérarchiques supérieurs qui est obtenu de manière automatique, sans intervention manuelle.</li>
 									</ul><!-- Product Single - Short Description End -->
 
 									<!-- Product Single - Meta
@@ -92,7 +91,7 @@ layout: default
 
 						<div class="heading-block center">
 							<h2>Autres Packages {{ page.type }}s</h2>
-							<span>Choisissez une autre package Omegapro si vous le souhaitez</span>
+							<span>Choisissez une autre package Wintel PLUS si vous le souhaitez</span>
 						</div>
 
 						<div class="owl-carousel product-carousel carousel-widget" data-margin="30" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-md="2" data-items-lg="3" data-items-xl="4">
@@ -101,8 +100,8 @@ layout: default
 							<div class="oc-item">
 								<div class="product">
 									<div class="product-image">
-										<a href="#"><img src="{{ license.logo }}" alt="{{ license.title }}"></a>
-										<a href="#"><img src="{{ license.logo }}" alt="{{ license.title }}"></a>
+										<a href="#"><img src="{{ license.image }}" alt="{{ license.title }}"></a>
+										<a href="#"><img src="{{ license.image }}" alt="{{ license.title }}"></a>
 										<div class="bg-overlay">
 											<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
 												<a href="{{ license.url }}" class="btn btn-dark me-2"><i class="icon-shopping-cart"></i></a>
@@ -113,7 +112,7 @@ layout: default
 									</div>
 									<div class="product-desc center">
 										<div class="product-title"><h3><a href="{{ license.url }}">{{ license.title }}</a></h3></div>
-										<div class="product-price"><ins>${{ license.prix }}</ins></div>
+										<div class="product-price"><ins>{{ license.prix }} FCFA</ins></div>
 										
 									</div>
 								</div>
