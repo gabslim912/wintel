@@ -1,145 +1,118 @@
 ---
+title: Immo-Secure
+date: 2022-10-15 21:10:09 Z
+categories:
+- Category 1
 layout: projet
-category: Category 1
-main_image: /uploads/slider-fullscreen2-slide-2.jpg
-mini_desc: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit
+main_image: "/uploads/slider-fullscreen2-slide-2.jpg"
+mini_desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit
   fugiat quisquam nesciunt. Dicta quis.
 fond: 1000000
 participants: 10
 contibutions: 25
-date: '2022-10-15 21:10:09 +0000'
 auteur: John Doe
-profil_auteur: /uploads/testimonial-2.jpg
-adresse: 'Dakar, Sénégal'
+profil_auteur: "/uploads/testimonial-2.jpg"
+adresse: Dakar, Sénégal
 objectif: 10000000
-description_auteur: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eveniet,
-  eligendi et nobis neque minus mollitia sit repudiandae ad repellendus
-  recusandae blanditiis praesentium.
-video: 'https://vimeo.com/87235351?embedded=true&source=vimeo_logo&owner=12281231'
-title: Immo-Secure
+description_auteur: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+  eveniet, eligendi et nobis neque minus mollitia sit repudiandae ad repellendus recusandae
+  blanditiis praesentium.
+video: https://vimeo.com/87235351?embedded=true&source=vimeo_logo&owner=12281231
 gallery:
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
-  - title: Image Title
-    image: /uploads/slider-fullscreen2-slide-2.jpg
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
+- title: Image Title
+  image: "/uploads/slider-fullscreen2-slide-2.jpg"
 faqs:
-  - title: Lorem ipsum dolor sit amet?
-    response: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi
-      quam cum voluptates doloribus quae nisi tempore necessitatibus dolores
-      ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex
-      expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-      nulla.
-  - title: Lorem ipsum dolor sit amet?
-    response: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi
-      quam cum voluptates doloribus quae nisi tempore necessitatibus dolores
-      ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex
-      expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-      nulla.
-  - title: Lorem ipsum dolor sit amet?
-    response: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi
-      quam cum voluptates doloribus quae nisi tempore necessitatibus dolores
-      ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex
-      expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-      nulla.
-  - title: Lorem ipsum dolor sit amet?
-    response: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi
-      quam cum voluptates doloribus quae nisi tempore necessitatibus dolores
-      ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex
-      expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-      nulla.
-  - title: Lorem ipsum dolor sit amet?
-    response: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-      dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi
-      quam cum voluptates doloribus quae nisi tempore necessitatibus dolores
-      ducimus enim libero eaque explicabo suscipit animi at quaerat aliquid ex
-      expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero vitae
-      nulla.
+- title: Lorem ipsum dolor sit amet?
+  response: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum,
+    vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates
+    doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo
+    suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
+    unde quas beatae vero vitae nulla.
+- title: Lorem ipsum dolor sit amet?
+  response: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum,
+    vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates
+    doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo
+    suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
+    unde quas beatae vero vitae nulla.
+- title: Lorem ipsum dolor sit amet?
+  response: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum,
+    vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates
+    doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo
+    suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
+    unde quas beatae vero vitae nulla.
+- title: Lorem ipsum dolor sit amet?
+  response: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum,
+    vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates
+    doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo
+    suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
+    unde quas beatae vero vitae nulla.
+- title: Lorem ipsum dolor sit amet?
+  response: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum,
+    vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates
+    doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque explicabo
+    suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
+    unde quas beatae vero vitae nulla.
 updates:
-  - title: 'Lorem ipsum dolor, sit amet consectetur'
-    date: '2022-10-15 21:11:23 +0000'
-    text: >-
-      Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam
-      placeat reprehenderit quis illo. Natus minus perferendis cumque impedit
-      omnis ullam laudantium quidem recusandae! Repudiandae similique nostrum
-      in, deleniti laudantium.
-  - title: 'Lorem ipsum dolor, sit amet consectetur'
-    date: '2022-10-15 21:11:23 +0000'
-    text: >-
-      Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam
-      placeat reprehenderit quis illo. Natus minus perferendis cumque impedit
-      omnis ullam laudantium quidem recusandae! Repudiandae similique nostrum
-      in, deleniti laudantium.
-  - title: 'Lorem ipsum dolor, sit amet consectetur'
-    date: '2022-10-15 21:11:22 +0000'
-    text: >-
-      Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam
-      placeat reprehenderit quis illo. Natus minus perferendis cumque impedit
-      omnis ullam laudantium quidem recusandae! Repudiandae similique nostrum
-      in, deleniti laudantium.
+- title: Lorem ipsum dolor, sit amet consectetur
+  date: '2022-10-15 21:11:23 +0000'
+  text: Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam placeat
+    reprehenderit quis illo. Natus minus perferendis cumque impedit omnis ullam laudantium
+    quidem recusandae! Repudiandae similique nostrum in, deleniti laudantium.
+- title: Lorem ipsum dolor, sit amet consectetur
+  date: '2022-10-15 21:11:23 +0000'
+  text: Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam placeat
+    reprehenderit quis illo. Natus minus perferendis cumque impedit omnis ullam laudantium
+    quidem recusandae! Repudiandae similique nostrum in, deleniti laudantium.
+- title: Lorem ipsum dolor, sit amet consectetur
+  date: '2022-10-15 21:11:22 +0000'
+  text: Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quas ipsam placeat
+    reprehenderit quis illo. Natus minus perferendis cumque impedit omnis ullam laudantium
+    quidem recusandae! Repudiandae similique nostrum in, deleniti laudantium.
 reviews:
-  - auteur: John Doe
-    profile_picture: /uploads/testimonial-2.jpg
-    date: '2022-10-15 21:11:36 +0000'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
-      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore,
-      molestias.
-    note: '5'
-  - auteur: John Doe
-    profile_picture: /uploads/testimonial-2.jpg
-    date: '2022-10-15 21:11:35 +0000'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
-      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore,
-      molestias.
-    note: '5'
-  - auteur: John Doe
-    profile_picture: /uploads/testimonial-2.jpg
-    date: '2022-10-15 21:11:34 +0000'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
-      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore,
-      molestias.
-    note: '5'
-  - auteur: John Doe
-    profile_picture: /uploads/testimonial-2.jpg
-    date: '2022-10-15 21:11:34 +0000'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
-      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore,
-      molestias.
-    note: '5'
-  - auteur: John Doe
-    profile_picture: /uploads/testimonial-2.jpg
-    date: '2022-10-15 21:11:33 +0000'
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
-      placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore,
-      molestias.
-    note: '5'
+- auteur: John Doe
+  profile_picture: "/uploads/testimonial-2.jpg"
+  date: '2022-10-15 21:11:36 +0000'
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+    placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+  note: '5'
+- auteur: John Doe
+  profile_picture: "/uploads/testimonial-2.jpg"
+  date: '2022-10-15 21:11:35 +0000'
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+    placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+  note: '5'
+- auteur: John Doe
+  profile_picture: "/uploads/testimonial-2.jpg"
+  date: '2022-10-15 21:11:34 +0000'
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+    placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+  note: '5'
+- auteur: John Doe
+  profile_picture: "/uploads/testimonial-2.jpg"
+  date: '2022-10-15 21:11:34 +0000'
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+    placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+  note: '5'
+- auteur: John Doe
+  profile_picture: "/uploads/testimonial-2.jpg"
+  date: '2022-10-15 21:11:33 +0000'
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore
+    placeat aperiam tenetur repellendus aliquid fugit doloribus amet dolore, molestias.
+  note: '5'
 _template: projets
 ---
 

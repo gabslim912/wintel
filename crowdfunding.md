@@ -1,7 +1,7 @@
 ---
-layout: crowdfunding
 title: Crowdfunding
 permalink: "/crowdfunding.html"
-description: 'Investissez dans des projets prometteurs'
-
+layout: crowdfunding
+description: Investissez dans des projets prometteurs
 ---
+
