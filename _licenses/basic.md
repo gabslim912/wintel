@@ -3,7 +3,8 @@ title: Standard
 type: Tawfeex
 layout: license
 _template: licences
-mini_description: Avec le pack standard à 35 000 FCFA, le client peut gagner 50% des commissions.
+mini_description: Avec le pack standard à 35 000 FCFA, le client peut gagner 50% des
+  commissions.
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
 niveaux: Acces aux niveaux 1 & 2
@@ -13,7 +14,8 @@ actions: 125 actions de l'entreprise TAWFEEX
 prix: 35000
 frais_carte: 99
 frais_activation_wintel: 10
-disclaimer: "Ceux-ci sont des estimations et varient en fonction de l'expansion du reseau Wintel dans sa globalite "
+disclaimer: 'Ceux-ci sont des estimations et varient en fonction de l''expansion du
+  reseau Wintel dans sa globalite '
 image: "/uploads/LSI-cards-1.jpg"
 logo: "/uploads/logo.jpeg"
 ---
