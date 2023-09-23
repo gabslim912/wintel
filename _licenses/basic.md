@@ -1,21 +1,21 @@
 ---
-type: Client
-title: Basic
+type: Tawfeex
+layout: license
+_template: licences
+title: Standard
 description: >-
-  Etiam ultrices, lorem mollis interdum sollicitudin, nisl enim eleifend lacus,
-  sit amet varius quam leo a libero. In nec varius neque. Lorem ipsum dolor sit
-  amet, consectetur adipiscing elit. Fusce vel nibh lorem. Donec interdum
-  aliquam sapien, at pulvinar felis pellentesque eget.
+  Avec le pack standard à 35 000 FCFA, le client peut gagner 50% des commissions.
+commissions_bienvenue: 10000FCFA 
+commissions_directes: 50% de commissions
+validite: Validite illimite
 prix: 500
-frais_activation_omp: 99
+frais_carte: 99
 frais_activation_wintel: 10
-frais_activation_binance: 15
-image: /uploads/omegapro.jpg
 disclaimer: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at magna vel
   eros elementum consectetur in a augue. 
-layout: license
-logo: /uploads/500.jpeg
-_template: licences
+image: /uploads/LSI-cards-1.jpg
+logo: /uploads/logo.jpeg
+
 ---
 

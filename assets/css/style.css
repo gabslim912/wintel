@@ -12103,8 +12103,8 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	position: relative;
 	padding: 1.5rem 0;
 	color: #333;
-	font-size: 4rem;
-	line-height: 1;
+	font-size: 2rem;
+	line-height: 2;
 }
 
 .pricing-price .price-unit {
