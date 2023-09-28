@@ -10,13 +10,14 @@ reseau: Expansion de réseaux automatisés
 niveaux: Acces aux niveauX 1,2,3 & 4
 commissions_bienvenue: 80000FCFA de bienvenue
 commissions_directes: 60% de commissions directes
-actions: 750 actions de l'entreprise TAWFEEX
+actions: 750 actions TAWFEEX
 prix: 500000
+color: diamond
 frais_carte: 99
 frais_activation_wintel: 10
 disclaimer: 'Ceux-ci sont des estimations et varient en fonction de l''expansion du
   reseau Wintel dans sa globalite '
-image: "/uploads/LSI-cards-1.jpg"
+image: "/uploads/standard-card.jpg"
 logo: "/uploads/logo.jpeg"
 ---
 

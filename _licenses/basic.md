@@ -10,8 +10,10 @@ reseau: Expansion de réseaux automatisés
 niveaux: Accès aux niveaux 1 & 2
 commissions_bienvenue: 10000FCFA de bienvenue
 commissions_directes: 50% de commissions directes
-actions: 125 actions de l'entreprise TAWFEEX
+actions: 125 actions TAWFEEX
 prix: 35000
+color: blue
+bg_color: bg-card-blue
 frais_carte: 99
 frais_activation_wintel: 10
 disclaimer: 'Ceux-ci sont des estimations et varient en fonction de l''expansion du
