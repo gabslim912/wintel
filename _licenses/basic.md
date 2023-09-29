@@ -22,6 +22,4 @@ image: "/uploads/LSI-cards-1.jpg"
 logo: "/uploads/logo.jpeg"
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
+Découvrez TAWFEEX : la révolution des achats ! Rejoignez notre communauté pour gagner des commissions sur vos dépenses tout en étant connecté à un réseau mondial d'entreprises. Chaque recommandation fructueuse vous rapporte davantage, vous rapprochant de la liberté financière. Votre carte TAWFEEX devient votre clé vers des gains réels à chaque achat et chaque recommandation. Transformez votre routine d'achat en opportunité de récompense et de liberté économique. Soyez intelligent dans vos achats, rejoignez-nous chez TAWFEEX et prospérons ensemble. Ma carte, mon entreprise, ma liberté.
