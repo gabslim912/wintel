@@ -86,27 +86,49 @@ layout: default
 						</div>
 					</div>
 					<!-- Modal -->
-					<div class="modal  text-start" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
+					
+					<div class="modal subscribe-widget fade text-start bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog  modal-lg">
 							<div class="modal-content">
-								<div class="modal-header">
-									<h4 class="modal-title" id="myModalLabel">Achat du pack {{ page.title }}</h4>
-									<button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-hidden="true"></button>
-								</div>
-								<div class="modal-body">
+						
+								<div class="modal-body block dark mx-auto" style="background: url('/assets/images/wintel/team_1.jpg') no-repeat; background-size: cover;" >
 									
 									
-									<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-									<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+									<div style="padding: 50px;">
+										<div class="heading-block border-bottom-0 mb-4" style="max-width:700px;">
+											<h3>ETAPE 1: Achat du pack {{ page.title }}</h3>
+											<span>Une fois les informations renseignees, vous serez rediriger vers notre interface de paiement</span>
+										</div>
+										<div class="widget-subscribe-form-result"></div>
+										<form class="widget-subscribe-form2" action="include/subscribe.php" method="post" style="max-width: 350px;">
+											
+											<div class="row">
+												<div class="col-md-6 ">
+													<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Prenom">
+												</div>
+												<div class="col-md-6 ">
+													<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Nom">
+												</div>
+												<div class="col-md-12 mt-3">
+													<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Telephone">
+												</div>
+												<div class="col-md-12 mt-3">
+													<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Email">
+												</div>
+											</div>
+											
+											<button class="button button-rounded  ms-0" type="submit" style="margin-top:15px;">Proceder au paiement</button>
+										</form>
+										<p class="mb-0"><small><em>*We hate Spam &amp; Junk Emails.</em></small></p>
+									</div>
 									
 								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">J'achete</button>
-								</div>
+								
 							</div>
 						</div>
 					</div>
+
+					
 					<div class="w-100"></div>
 
 					<div class="col-12 mt-5">
@@ -222,8 +244,8 @@ layout: default
 					<div class="w-100">
 
 						<div class="heading-block center">
-							<h2>Autres Packages {{ page.type }}s</h2>
-							<span>Choisissez une autre package Wintel PLUS si vs le souhaitez</span>
+							<h2>Autres Packages {{ page.type }} PLUS</h2>
+							<span>Choisissez une autre package TAWFEEX PLUS si vous le souhaitez</span>
 						</div>
 
 						<div class="owl-carousel product-carousel carousel-widget" data-margin="30" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-md="2" data-items-lg="3" data-items-xl="4">
