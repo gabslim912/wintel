@@ -1,10 +1,10 @@
 ---
-title: Actubi
+title: ACTUBI
 date: 2022-10-15 21:10:09 Z
 categories:
 - Category 1
 layout: projet
-main_image: "/uploads/slider-fullscreen2-slide-2.jpg"
+main_image: "/uploads/actubi.png"
 mini_desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit
   fugiat quisquam nesciunt. Dicta quis.
 fond: 1000000
