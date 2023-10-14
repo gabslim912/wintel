@@ -8,6 +8,8 @@ mini_description: Avec le pack standard à 35 000 FCFA, le client peut gagner 50
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
 niveaux: Accès aux niveaux 1 & 2
+rentabilite: + 500 % de bénéfices
+Affiliation: + 10 000 cartes
 commissions_bienvenue: 10000FCFA de bienvenue
 commissions_directes: 50% de commissions directes
 actions: 125 actions TAWFEEX
@@ -22,4 +24,4 @@ image: "/uploads/LSI-cards-1.jpg"
 logo: "/uploads/logo.jpeg"
 ---
 
-Découvrez TAWFEEX : la révolution des achats ! Rejoignez notre communauté pour gagner des commissions sur vos dépenses tout en étant connecté à un réseau mondial d'entreprises. Chaque recommandation fructueuse vous rapporte davantage, vous rapprochant de la liberté financière. Votre carte TAWFEEX devient votre clé vers des gains réels à chaque achat et chaque recommandation. Transformez votre routine d'achat en opportunité de récompense et de liberté économique. Soyez intelligent dans vos achats, rejoignez-nous chez TAWFEEX et prospérons ensemble. Ma carte, mon entreprise, ma liberté.
+Le forfait Basic offre une multitude d'avantages vous permettant de générer des commissions allant jusqu'à 500 %. En devenant un client VIP avec votre carte Tawfeex Basic, vous non seulement bénéficiez de remises sur vos achats, mais vous gagnez également des commissions. Wintel vous aide à créer et développer votre réseau en vous donnant accès à plus de 10 000 affiliés potentiels. Vous pouvez atteindre tous les niveaux en obtenant 70 % de commissions sur les niveaux 1, 2 et 3, ainsi que 50 % sur le niveau 4.

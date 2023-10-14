@@ -7,7 +7,9 @@ mini_description: Avec le pack standard à 100 000 FCFA, le client peut gagner 7
   des commissions.
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
-niveaux: Acces aux niveauX 1,2 & 3
+niveaux: Acces aux niveaux 1,2 & 3
+rentabilite: + 500 % de bénéfices
+Affiliation: + 10 000 cartes
 commissions_bienvenue: 20000FCFA de bienvenue
 commissions_directes: 70% de commissions directes
 actions: 250 actions TAWFEEX
@@ -21,6 +23,4 @@ image: "/uploads/gold-card.jpg"
 logo: "/uploads/logo.jpeg"
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
+Le forfait Gold offre une multitude d'avantages vous permettant de générer des commissions allant jusqu'à 500 %. En devenant un client VIP avec votre carte Tawfeex Gold, vous non seulement bénéficiez de remises sur vos achats, mais vous gagnez également des commissions. Wintel vous aide à créer et développer votre réseau en vous donnant accès à plus de 10 000 affiliés potentiels. Vous pouvez atteindre tous les niveaux en obtenant 70 % de commissions sur les niveaux 1, 2 et 3, ainsi que 50 % sur le niveau 4.
