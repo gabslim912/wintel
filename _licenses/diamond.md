@@ -8,8 +8,8 @@ mini_description: Avec le pack standard à 500 000 FCFA, le client peut gagner 6
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
 niveaux: Acces aux niveaux 1,2,3 & 4
-rentabilite: + 500 % de bénéfices
-Affiliation: + 10 000 cartes
+rentabilite: "+ 500 % de bénéfices"
+Affiliation: "+ 10 000 cartes"
 commissions_bienvenue: 80000FCFA de bienvenue
 commissions_directes: 60% de commissions directes
 actions: 750 actions TAWFEEX
