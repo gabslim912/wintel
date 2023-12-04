@@ -9,7 +9,7 @@ validite: Validite illimite
 reseau: Expansion de réseaux automatisés
 niveaux: Accès aux niveaux 1,2,3,4
 rentabilite: "+ 500 % de bénéfices"
-Affiliation: "Jusqu'à 10000 affiliés"
+Affiliation: Jusqu'à 10000 affiliés
 commissions_directes: 10% de commissions directes
 commissions_pool: 80% de commissions pool
 actions: 500 actions TAWFEEX
