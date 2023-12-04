@@ -7,13 +7,13 @@ mini_description: Avec le pack standard à 150 000 FCFA, le client peut gagner 8
   des commissions.
 validite: Validite illimite
 reseau: Expansion de réseaux automatisés
-niveaux: Acces aux niveaux 1,2 & 3
+niveaux: Accès aux niveaux 1,2,3,4
 rentabilite: "+ 500 % de bénéfices"
-Affiliation: "+ 10 000 cartes"
-commissions_bienvenue: 40000FCFA de bienvenue
-commissions_directes: 80% de commissions directes
+Affiliation: "Jusqu'à 10000 affiliés"
+commissions_directes: 10% de commissions directes
+commissions_pool: 80% de commissions pool
 actions: 500 actions TAWFEEX
-prix: 150000
+prix: 185000
 color: platinum
 frais_carte: 99
 frais_activation_wintel: 10
